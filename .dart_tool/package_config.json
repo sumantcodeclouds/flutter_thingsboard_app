@@ -1,0 +1,890 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "_flutterfire_internals",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/_flutterfire_internals-1.3.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "adaptive_number",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/adaptive_number-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "archive",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/archive-3.3.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "args",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/args-2.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "async",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/async-2.11.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "auto_size_text",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/auto_size_text-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "barcode_scan2",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/barcode_scan2-4.2.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "boolean_selector",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "characters",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/characters-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "charcode",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/charcode-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "checked_yaml",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/checked_yaml-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "cli_util",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/cli_util-0.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "clock",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/clock-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "collection",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/collection-1.17.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "convert",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/convert-3.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "cross_file",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/cross_file-0.3.3+4",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "crypto",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/crypto-3.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "csslib",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/csslib-0.17.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "cupertino_icons",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "dart_jsonwebtoken",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/dart_jsonwebtoken-2.11.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "dbus",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/dbus-0.7.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "device_info_plus",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/device_info_plus-9.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "device_info_plus_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/device_info_plus_platform_interface-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "dio",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/dio-4.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "ed25519_edwards",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/ed25519_edwards-0.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "fading_edge_scrollview",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/fading_edge_scrollview-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "fake_async",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "ffi",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/ffi-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "file",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/file-6.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "file_selector_linux",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "file_selector_macos",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.3+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "file_selector_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/file_selector_platform_interface-2.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "file_selector_windows",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_core",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/firebase_core-2.15.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_core_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/firebase_core_platform_interface-4.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_core_web",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/firebase_core_web-2.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_messaging",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/firebase_messaging-14.6.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_messaging_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/firebase_messaging_platform_interface-4.5.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_messaging_web",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/firebase_messaging_web-3.5.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "fixnum",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/fixnum-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "fluro",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/fluro-2.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/codeclouds-sumant/Desktop/flutter/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "flutter_form_builder",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_form_builder-9.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "flutter_inappwebview",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/git/flutter_inappwebview-a76ed7b1aafb4867517f2ed47dda9e9d15cf32d6/",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "flutter_launcher_icons",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_launcher_icons-0.13.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "flutter_local_notifications",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_local_notifications-15.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "flutter_local_notifications_linux",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_local_notifications_linux-4.0.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "flutter_local_notifications_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_local_notifications_platform_interface-7.0.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "flutter_localizations",
+      "rootUri": "file:///Users/codeclouds-sumant/Desktop/flutter/flutter/packages/flutter_localizations",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "flutter_plugin_android_lifecycle",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.15",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "flutter_secure_storage",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_secure_storage-9.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_linux",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_secure_storage_linux-1.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_macos",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_secure_storage_macos-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_secure_storage_platform_interface-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_web",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_secure_storage_web-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_windows",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_secure_storage_windows-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_speed_dial",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_speed_dial-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_staggered_grid_view",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_staggered_grid_view-0.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_svg",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_svg-2.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "flutter_test",
+      "rootUri": "file:///Users/codeclouds-sumant/Desktop/flutter/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "flutter_udid",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/flutter_udid-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/codeclouds-sumant/Desktop/flutter/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "form_builder_validators",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/form_builder_validators-9.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "geolocator",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/geolocator-10.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "geolocator_android",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/geolocator_android-4.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "geolocator_apple",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/geolocator_apple-2.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "geolocator_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/geolocator_platform_interface-4.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "geolocator_web",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/geolocator_web-2.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "geolocator_windows",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/geolocator_windows-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "html",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/html-0.15.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/http-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "image",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/image-4.0.17",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "image_picker",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/image_picker-1.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "image_picker_android",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/image_picker_android-0.8.7+4",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "image_picker_for_web",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/image_picker_for_web-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "image_picker_ios",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.8+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "image_picker_linux",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "image_picker_macos",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "image_picker_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/image_picker_platform_interface-2.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "image_picker_windows",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "infinite_scroll_pagination",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/infinite_scroll_pagination-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/intl-0.18.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/js-0.6.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "json_annotation",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/json_annotation-4.8.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "jwt_decoder",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/jwt_decoder-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "logger",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/logger-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "matcher",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/matcher-0.12.16",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "material_color_utilities",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/material_color_utilities-0.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "material_design_icons_flutter",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/material_design_icons_flutter-7.0.7296",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/meta-1.9.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "mime",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/mime-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "notification_permissions",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/notification_permissions-0.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "package_info",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/package_info-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "package_info_plus",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/package_info_plus-4.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "package_info_plus_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/package_info_plus_platform_interface-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/path-1.8.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_parsing",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/path_parsing-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_provider",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/path_provider-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "path_provider_android",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/path_provider_android-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "path_provider_foundation",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "path_provider_linux",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "path_provider_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/path_provider_platform_interface-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "path_provider_windows",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/path_provider_windows-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/petitparser-5.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "platform",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/platform-3.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "pointycastle",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/pointycastle-3.7.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "preload_page_view",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/preload_page_view-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "protobuf",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/protobuf-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "qr_code_scanner",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/qr_code_scanner-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "sky_engine",
+      "rootUri": "file:///Users/codeclouds-sumant/Desktop/flutter/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "sliver_tools",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/sliver_tools-0.2.12",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "source_span",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/source_span-1.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "stack_trace",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/stack_trace-1.11.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "stream_channel",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/stream_channel-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "stream_transform",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/stream_transform-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "string_scanner",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "term_glyph",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "test_api",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/test_api-0.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "thingsboard_client",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/thingsboard_client-1.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "timezone",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/timezone-0.9.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "universal_html",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/universal_html-2.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "universal_io",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/universal_io-2.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "universal_platform",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/universal_platform-1.0.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "url_launcher",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/url_launcher-6.1.12",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "url_launcher_android",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/url_launcher_android-6.0.38",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "url_launcher_ios",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/url_launcher_ios-6.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "url_launcher_linux",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/url_launcher_linux-3.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "url_launcher_macos",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/url_launcher_macos-3.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "url_launcher_platform_interface",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/url_launcher_platform_interface-2.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "url_launcher_web",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/url_launcher_web-2.0.18",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "url_launcher_windows",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/url_launcher_windows-3.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "uuid",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/uuid-3.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "vector_graphics",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/vector_graphics-1.1.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "vector_graphics_codec",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/vector_graphics_codec-1.1.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "vector_graphics_compiler",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/vector_graphics_compiler-1.1.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "vector_math",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "web",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/web-0.1.4-beta",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "web_socket_channel",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/web_socket_channel-2.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "win32",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/win32-5.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "win32_registry",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/win32_registry-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "xdg_directories",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/xdg_directories-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "xml",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/xml-6.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "yaml",
+      "rootUri": "file:///Users/codeclouds-sumant/.pub-cache/hosted/pub.dev/yaml-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "thingsboard_app",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    }
+  ],
+  "generated": "2023-11-17T09:02:53.204143Z",
+  "generator": "pub",
+  "generatorVersion": "3.1.0"
+}
