@@ -39,9 +39,7 @@ abstract class TbContextState<T extends TbContextWidget> extends State<T>
 
 mixin TbMainState {
   bool canNavigate(String path);
-
   navigateToPath(String path);
-
   bool isHomePage();
 }
 

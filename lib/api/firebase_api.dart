@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:firebase_messaging/firebase_messaging.dart';
 import '../utils/services//local_notification_service.dart';
 import 'package:notification_permissions/notification_permissions.dart';
@@ -47,13 +49,29 @@ class FirebaseApi {
     );
     print('User granted permission: ${_firebaseMessaging}');
     print('object---------------');
-    final fcmToken = await _firebaseMessaging.getToken();
+    if (Platform.isAndroid) {
+      final fcmToken = await _firebaseMessaging.getToken();
 
-    print('Token $fcmToken');
-    if (fcmToken != '') {
-      //initNotification();
-      globals.pushToken = fcmToken!;
-      FirebaseMessaging.onBackgroundMessage(handleBackgroundMessage);
+      print('Token $fcmToken');
+      if (fcmToken != '') {
+        //initNotification();
+        globals.pushToken = fcmToken!;
+        FirebaseMessaging.onBackgroundMessage(handleBackgroundMessage);
+      }
+    } else {
+      final apnsToken = await _firebaseMessaging.getAPNSToken();
+
+      print('Token $apnsToken');
+      if (apnsToken != '') {
+        //initNotification();
+        final fcmToken =
+            await FirebaseMessaging.instance.getToken(vapidKey: 'V4YKU6Y585');
+
+        print('FCM Token: $fcmToken');
+
+        globals.pushToken = fcmToken!;
+        FirebaseMessaging.onBackgroundMessage(handleBackgroundMessage);
+      }
     }
 
     FirebaseMessaging.onMessage.listen(
