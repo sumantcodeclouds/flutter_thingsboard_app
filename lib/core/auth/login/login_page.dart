@@ -224,7 +224,29 @@ class _LoginPageState extends TbPageState<LoginPage> {
                                                   labelText:
                                                       '${S.of(context).password}'),
                                             );
-                                          })
+                                          }),
+                                      Container(
+                                        width: double
+                                            .infinity, // Set width to infinity for full width
+                                        padding: EdgeInsets.symmetric(
+                                            horizontal: 16.0),
+                                        child: DropdownButton<String>(
+                                          isExpanded:
+                                              true, // Set to true for full width
+                                          // value: selectedValue,
+                                          items: [
+                                            'Item 1',
+                                            'Item 2',
+                                            'Item 3',
+                                          ].map((String value) {
+                                            return DropdownMenuItem<String>(
+                                              value: value,
+                                              child: Text(value),
+                                            );
+                                          }).toList(),
+                                          onChanged: (String? value) {},
+                                        ),
+                                      ),
                                     ],
                                   )),
                               Row(
