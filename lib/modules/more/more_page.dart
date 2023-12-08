@@ -192,6 +192,10 @@ class MoreMenuItem {
                 icon: Icons.domain,
                 path: '/assets'),
             MoreMenuItem(
+                title: '${S.of(context).AppVersion}',
+                icon: Icons.devices_rounded,
+                path: '/appversion'),
+            MoreMenuItem(
                 title: '${S.of(context).auditLogs}',
                 icon: Icons.track_changes,
                 path: '/auditLogs')

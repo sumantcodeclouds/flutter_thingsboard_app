@@ -26,8 +26,9 @@ void main() async {
   //   await FirebaseApi().initNotifications();
   // });
   await FirebaseApi().initNotifications();
-  LocalNotificationService.initialize();
+
   if (UniversalPlatform.isAndroid) {
+    LocalNotificationService.initialize();
     await AndroidInAppWebViewController.setWebContentsDebuggingEnabled(true);
   }
 

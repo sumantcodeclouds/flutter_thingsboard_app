@@ -39,12 +39,12 @@
 	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>This app needs camera access to scan QR codes.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-		<string>We need your location for syncing location when the app is running in the background.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-		<string>We need your location for syncing location purpose when the app is in use.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-		<string>We need your location for syncing location purpose, both when the app is running in the background and when it's in use.</string>
+	<string>We need your location for syncing location purpose, both when the app is running in the background and when it's in use.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location for syncing location when the app is running in the background.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location for syncing location purpose when the app is in use.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app needs access of your camera to add photos to your profile.</string>
 	<key>UIBackgroundModes</key>
@@ -58,16 +58,9 @@
 	<string>Main</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
-		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
