@@ -11,6 +11,7 @@ import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
 import 'package:thingsboard_app/widgets/two_value_listenable_builder.dart';
 import 'package:universal_platform/universal_platform.dart';
 import 'package:url_launcher/url_launcher_string.dart';
+import 'package:thingsboard_app/utils/services/global.dart' as globals;
 
 class DashboardController {
   final ValueNotifier<bool> canGoBack = ValueNotifier(false);
@@ -136,6 +137,7 @@ class _DashboardState extends TbContextState<Dashboard> {
     if (tbContext.isAuthenticated) {
       if (!readyState.value) {
         _initialUrl = Uri.parse(ThingsboardAppConstants.thingsBoardApiEndpoint +
+            // _initialUrl = Uri.parse(globals.globalUrl +
             '?accessToken=${tbClient.getJwtToken()!}&refreshToken=${tbClient.getRefreshToken()!}');
         readyState.value = true;
       } else {
@@ -350,11 +352,15 @@ class _DashboardState extends TbContextState<Dashboard> {
                               Platform.isIOS &&
                                   navigationAction.iosWKNavigationType ==
                                       IOSWKNavigationType.LINK_ACTIVATED) {
-                            if (uriString.startsWith(ThingsboardAppConstants
-                                .thingsBoardApiEndpoint)) {
+                            if (uriString.startsWith(
+                                ThingsboardAppConstants.thingsBoardApiEndpoint
+                                // globals.globalUrl
+                                )) {
                               var target = uriString.substring(
                                   ThingsboardAppConstants
-                                      .thingsBoardApiEndpoint.length);
+                                      .thingsBoardApiEndpoint.length
+                                  // globals.globalUrl.length
+                                  );
                               if (!target.startsWith("?accessToken")) {
                                 if (target.startsWith("/")) {
                                   target = target.substring(1);

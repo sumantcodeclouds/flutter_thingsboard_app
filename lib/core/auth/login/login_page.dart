@@ -13,6 +13,7 @@ import 'package:thingsboard_app/core/context/tb_context.dart';
 import 'package:thingsboard_app/core/context/tb_context_widget.dart';
 import 'package:thingsboard_app/generated/l10n.dart';
 import 'package:thingsboard_app/utils/services/http_service.dart';
+import 'package:thingsboard_app/utils/services/toast_service.dart';
 import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
 import 'package:thingsboard_client/thingsboard_client.dart';
 import 'package:thingsboard_app/utils/services/global.dart' as globals;
@@ -57,7 +58,9 @@ class _LoginPageState extends TbPageState<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: globals.isStaging
+            ? const Color.fromARGB(255, 87, 86, 86)
+            : Colors.black,
         resizeToAvoidBottomInset: false,
         body: Stack(children: [
           LoginPageBackground(),
@@ -109,6 +112,18 @@ class _LoginPageState extends TbPageState<LoginPage> {
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Text('${S.of(context).loginNotification}',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 23,
+                                            color: Colors.white,
+                                            height: 36 / 28))
+                                  ]),
+                              SizedBox(height: globals.isStaging ? 8 : 0),
+                              Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Text(globals.isStaging ? 'Staging' : '',
                                         style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                             fontSize: 23,
@@ -224,29 +239,7 @@ class _LoginPageState extends TbPageState<LoginPage> {
                                                   labelText:
                                                       '${S.of(context).password}'),
                                             );
-                                          }),
-                                      Container(
-                                        width: double
-                                            .infinity, // Set width to infinity for full width
-                                        padding: EdgeInsets.symmetric(
-                                            horizontal: 16.0),
-                                        child: DropdownButton<String>(
-                                          isExpanded:
-                                              true, // Set to true for full width
-                                          // value: selectedValue,
-                                          items: [
-                                            'Item 1',
-                                            'Item 2',
-                                            'Item 3',
-                                          ].map((String value) {
-                                            return DropdownMenuItem<String>(
-                                              value: value,
-                                              child: Text(value),
-                                            );
-                                          }).toList(),
-                                          onChanged: (String? value) {},
-                                        ),
-                                      ),
+                                          })
                                     ],
                                   )),
                               Row(
@@ -452,11 +445,17 @@ class _LoginPageState extends TbPageState<LoginPage> {
         };
         print(payload);
         print('store token payload--------------------');
+        showButtomToast('Device capture api called...');
         postHttpCall(payload).then((response) async {
-          print(response);
-          return false;
+          print(response.statusCode);
+          if (response.statusCode == 202) {
+            showButtomToast('Device capture successfully...');
+          } else {
+            showButtomToast('Device capture failed...');
+          }
         });
       } catch (e) {
+        showButtomToast(e.toString());
         _isLoginNotifier.value = false;
       }
     }

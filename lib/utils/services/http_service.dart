@@ -1,9 +1,13 @@
 import 'package:http/http.dart' as http;
+import 'package:thingsboard_app/constants/app_constants.dart';
 import 'dart:convert';
 import 'package:thingsboard_app/utils/services/global.dart' as globals;
 
 postHttpCall(sendData) async {
   print('sendData------- $sendData');
+  print(ThingsboardAppConstants.traxboarderApiEndpoint);
+  // print(myInstance.traxboarderUrl);
+
   try {
     var headers = {
       'Accept': 'application/json',
@@ -13,7 +17,7 @@ postHttpCall(sendData) async {
     var request = http.Request(
         'POST',
         Uri.parse(
-            'http://elephant.staging.traxmate.io:5001/' + sendData['url']));
+            ThingsboardAppConstants.traxboarderApiEndpoint + sendData['url']));
     request.body = json.encode(sendData);
     request.headers.addAll(headers);
     http.StreamedResponse response = await request.send();

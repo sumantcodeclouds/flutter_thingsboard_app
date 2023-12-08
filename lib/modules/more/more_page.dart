@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:thingsboard_app/api/local_storage.dart';
 import 'package:thingsboard_app/core/context/tb_context.dart';
 import 'package:thingsboard_app/core/context/tb_context_widget.dart';
 import 'package:thingsboard_app/generated/l10n.dart';
@@ -84,10 +85,8 @@ class _MorePageState extends TbContextState<MorePage> {
                         'pushToken': globals.pushToken,
                       },
                     };
-                    deleteHttpCall(payload).then((response) async {
-                      print(response);
-                      return false;
-                    });
+                    SecureStorage().clearSecureStorage();
+                    deleteHttpCall(payload).then((response) async {});
                     tbClient.logout(
                         requestConfig: RequestConfig(ignoreErrors: true));
                   })
@@ -203,7 +202,11 @@ class MoreMenuItem {
             MoreMenuItem(
                 title: '${S.of(context).assets}',
                 icon: Icons.domain,
-                path: '/assets')
+                path: '/assets'),
+            MoreMenuItem(
+                title: '${S.of(context).AppVersion}',
+                icon: Icons.devices_rounded,
+                path: '/appversion')
           ]);
           break;
         case Authority.REFRESH_TOKEN:

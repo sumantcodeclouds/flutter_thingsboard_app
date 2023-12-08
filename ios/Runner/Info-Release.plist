@@ -11,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>ThingsBoard App</string>
+	<string>Traxmate App</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -29,13 +29,15 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Scan QrCode or take photos using your camera.</string>
+	<string>This app needs camera access to scan QR codes.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Get location to place the device on a map.</string>
+		<string>We need your location for syncing location when the app is running in the background.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Get location to place the device on a map.</string>
+		<string>We need your location for syncing location purpose when the app is in use.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+		<string>We need your location for syncing location purpose, both when the app is running in the background and when it's in use.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Access photo library to take existing photos.</string>
+	<string>This app needs access of your camera to add photos to your profile.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>

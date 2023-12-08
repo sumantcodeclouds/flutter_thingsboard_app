@@ -220,6 +220,26 @@ class S {
     );
   }
 
+  /// `passwordResetCancel`
+  String get passwordResetCancel {
+    return Intl.message(
+      'Cancel',
+      name: 'cancel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `AppVersion`
+  String get AppVersion {
+    return Intl.message(
+      'AppVersion',
+      name: 'appVersion',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Password is required.`
   String get passwordRequireText {
     return Intl.message(

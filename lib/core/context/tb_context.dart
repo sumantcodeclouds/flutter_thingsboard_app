@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:thingsboard_app/constants/app_constants.dart';
 import 'package:universal_platform/universal_platform.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:fluro/fluro.dart';
@@ -6,7 +7,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
 import 'package:package_info/package_info.dart';
-import 'package:thingsboard_app/constants/app_constants.dart';
 import 'package:thingsboard_app/core/auth/oauth2/app_secret_provider.dart';
 import 'package:thingsboard_app/core/auth/oauth2/tb_oauth2_client.dart';
 import 'package:thingsboard_app/modules/main/main_page.dart';
@@ -14,6 +14,7 @@ import 'package:thingsboard_app/utils/services/widget_action_handler.dart';
 import 'package:thingsboard_client/thingsboard_client.dart';
 import 'package:thingsboard_app/utils/services/tb_app_storage.dart';
 import 'package:thingsboard_app/core/context/tb_context_widget.dart';
+import 'package:thingsboard_app/utils/services/global.dart' as globals;
 
 enum NotificationType { info, warn, success, error }
 
@@ -134,6 +135,10 @@ class TbContext {
   WidgetActionHandler get widgetActionHandler => _widgetActionHandler;
 
   Future<void> init() async {
+    // final urlProvider =
+    //     Provider.of<UrlProvider>(context, listen: false);
+    // print(urlProvider.baseUrl);
+    // print('baseurl-------');
     assert(() {
       if (_initialized) {
         throw StateError('TbContext already initialized!');
@@ -143,6 +148,7 @@ class TbContext {
     _initialized = true;
     var storage = createAppStorage();
     tbClient = ThingsboardClient(ThingsboardAppConstants.thingsBoardApiEndpoint,
+        // tbClient = ThingsboardClient(globals.globalUrl,
         storage: storage,
         onUserLoaded: onUserLoaded,
         onError: onError,

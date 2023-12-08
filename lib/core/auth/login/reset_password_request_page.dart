@@ -108,10 +108,10 @@ class _ResetPasswordRequestPageState
                                           padding: const EdgeInsets.symmetric(
                                               vertical: 20),
                                           child: ElevatedButton(
-                                            // child: Text(
-                                            //     '${S.of(context).passwordResetCancel}'),
                                             child: Text(
-                                                'changed for getting error on ios'),
+                                                '${S.of(context).passwordResetCancel}'),
+                                            // child: Text(
+                                            //     'changed for getting error on ios'),
                                             style: ElevatedButton.styleFrom(
                                               padding: EdgeInsets.symmetric(
                                                   vertical: 16),
